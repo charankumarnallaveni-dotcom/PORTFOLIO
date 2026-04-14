@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan Kumar Portfolio</title>
+    <link rel="stylesheet" href="style.css"><script src="https://kit.fontawesome.com/02b14f59bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>A Passionate Learner</p>
+            <h1>Hi, I am <span>Charan</span> <br><span>Kumar</span> Current Graduating at SR Universiity</h1>
+        </div>
+    </div>
+</div>
+<!-- -----ABOUT----- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am Charan Kumar, a dedicated and results-driven software developer currently in my second year at SR University. With a strong foundation in programming and web development.<br><br>
+                    Passionate about problem-solving and continuous learning, I am always exploring new technologies to enhance my skills and stay ahead in the ever-evolving tech landscape. I aim to contribute my knowledge and expertise to innovative projects that create meaningful impact.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">   
+                    <ul>
+                        <li><span>HTML, CSS, JS</span><br>Designing Web/Apps interfaces</li>
+                        <li><span>Python</span><br>Problem Solving Using Python Programming</li>
+                        <li><span>Java</span><br>Object Oriented Programming Using Java</li>
+                        <li><span>Game Design</span><br>Unity Engine (2D & 3D Game Development),C# Scripting for Gameplay Mechanics,Game Physics & Collision Systems,Scene Management & Game Flow</li></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span><br>Fresher</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-2027</span><br>B.Tech SR University </li>
+                        <li><span>2024</span><br>Python, Bits and Bytes Computer Education </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----SERVICES----- -->
+<div id="services">
+    <div class="class">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Designing</h2>
+                <p>I specialize in building responsive and dynamic websites using HTML, CSS, and JavaScript. I work with frameworks like React and Vue for frontend development and use Node.js, Django, and Flask for backend development. My expertise includes creating full-stack web applications and optimizing user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Development</h2>
+                <p>develop robust backend applications using Java and Spring Boot. My services include building RESTful APIs, enterprise-level applications, and microservices. I also focus on performance optimization, security, and scalability in Java-based projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Development</h2>
+                <p>offer Python development services, including web applications with Django and Flask, automation scripts, and data analysis solutions. My expertise extends to AI and machine learning integrations, enhancing functionality through intelligent automation.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----PORTFOLIO----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Unity Zombie Game</h3>
+                    <p>To be done</p>
+                    <a href="https://github.com/charankumarnallaveni-dotcom/Unity-Zombie-Game" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>AI Chat Bot-MERN</h3>
+                    <p>To be done</p>
+                    <a href="https://github.com/charankumarnallaveni-dotcom/AI-Chat-Bot-MERN" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----CONTACT----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>charankumarnnallaveni@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+918688809618</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_charan_kumar_07?igsh=MWl3bjB0MHZ3ZjQy" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nallaveni-charan-kumar-15b22a302/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Subimt</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks  = document.getElementsByClassName("tab-links");
+    var tabcontents  = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link"); 
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJMnFRomrGQpj9MgxGMmRbVwPQxh3c2zGIkbISY1kkgErogEfwVicAFnvOF6UFwogLew/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
+
